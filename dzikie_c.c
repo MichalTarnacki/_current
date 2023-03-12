@@ -32,10 +32,16 @@ int main()
     printf("%ld",sizeof &x); //sizeof unary-expression
 
     int i=1, j=2, k=3;
-
+    _Bool f = 1;
 
     i=j*=k;
     printf("%d",j);
+
+    //a[i]=i[a]
+
+    //zmienne restrict
+    int * restrict p;
+
 
     return 0;
 }
