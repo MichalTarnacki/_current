@@ -3,8 +3,8 @@
 //W trakcie poszukiwań dzikich fragmentów języka C
 //
 
-
-void f(int x){
+//funkcje tak szybkie jak możliwe
+inline void f(int x){
   printf("%d",x);
 }
 
@@ -43,5 +43,23 @@ int main()
     int * restrict p;
 
 
-    return 0;
+//q1=q2=q3
+    short q1[4][3][2] = {
+                { 1 },
+                { 2, 3 },
+                { 4, 5, 6 }
+    };
+    short q2[4][3][2] = {
+            1, 0, 0, 0, 0, 0,
+            2, 3, 0, 0, 0, 0,
+            4, 5, 6
+    };
+
+    short q3[4][3][2] = {
+            { {1}, },
+            { {2,3}, },
+            { {4,5}, {6},}
+          }
+
+    return 129;
 }
