@@ -158,7 +158,9 @@ void* RemoveElement(head *h, void *member)
       temp->previous= NULL;
     }
     h->size = h->size - 1;
-    return e;
+    void *mem = e->member;
+    free(e);
+    return mem;
   }
 
   if(e->next == NULL)
@@ -182,7 +184,9 @@ void* RemoveElement(head *h, void *member)
         temp->next = temp2;
       }
       h->size = h->size-1;
-      return e;
+      void *mem = e->member;
+      free(e);
+      return mem;
     }
     if(e->next != NULL)
       e=e->next;
@@ -351,8 +355,9 @@ void TestMenu(){
         scanf("%s", (char*)p);
        }
        void* deleted = RemoveElement(h, p);
-       if(deleted != NULL)
+       if(deleted != NULL){
         free(deleted);
+      }
 
     }
     else if(q=='p'){
@@ -376,6 +381,3 @@ int main()
   TestMenu();
     return 0;
 }
-
-
-printf("%s", h->print(h))
