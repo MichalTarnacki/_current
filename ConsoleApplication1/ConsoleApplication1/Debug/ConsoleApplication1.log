@@ -1,0 +1,13 @@
+﻿  ConsoleApplication1.c
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(41,30): warning C4133: "funkcja": niezgodne typy - od "char *" do "LPWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(41,45): warning C4133: "funkcja": niezgodne typy - od "char *" do "LPCWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(43,34): warning C4133: "funkcja": niezgodne typy - od "char *" do "LPWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(43,64): warning C4133: "funkcja": niezgodne typy - od "char [27]" do "LPCWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(20,9): warning C4101: "hdc": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(21,17): warning C4101: "ps": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(22,10): warning C4101: "rect": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(95,37): warning C4133: "=": niezgodne typy - od "char [9]" do "LPCWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(96,42): warning C4133: "=": niezgodne typy - od "char [13]" do "LPCWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(107,1): warning C4133: "funkcja": niezgodne typy - od "char [13]" do "LPCWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(107,1): warning C4133: "funkcja": niezgodne typy - od "char [7]" do "LPCWSTR"
+  ConsoleApplication1.vcxproj -> C:\Users\User\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.exe

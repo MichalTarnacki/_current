@@ -1,0 +1,12 @@
+﻿  ConsoleApplication1.c
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(49,60): warning C4244: "return": konwersja z "LRESULT" do "long", możliwa utrata danych
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(10,9): warning C4101: "hdc": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(11,17): warning C4101: "ps": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(12,10): warning C4101: "rect": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(74,37): warning C4133: "=": niezgodne typy - od "char [9]" do "LPCWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(75,42): warning C4133: "=": niezgodne typy - od "char [13]" do "LPCWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(86,1): warning C4133: "funkcja": niezgodne typy - od "char [13]" do "LPCWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(86,1): warning C4133: "funkcja": niezgodne typy - od "char [7]" do "LPCWSTR"
+C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(98,22): warning C4244: "return": konwersja z "WPARAM" do "int", możliwa utrata danych
+MSVCRTD.lib(exe_main.obj) : error LNK2019: nierozpoznany symbol zewnętrzny main przywołany w funkcji "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\User\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1
